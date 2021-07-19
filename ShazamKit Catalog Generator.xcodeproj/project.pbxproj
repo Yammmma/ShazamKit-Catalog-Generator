@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA29B0512672BD2D005B310E /* ShazamKit_Catalog_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29B0502672BD2D005B310E /* ShazamKit_Catalog_GeneratorApp.swift */; };
+		AA29B0532672BD2D005B310E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29B0522672BD2D005B310E /* ContentView.swift */; };
+		AA29B0552672BD2E005B310E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA29B0542672BD2E005B310E /* Assets.xcassets */; };
+		AA29B0582672BD2E005B310E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA29B0572672BD2E005B310E /* Preview Assets.xcassets */; };
+		AAEE86F126A43D2800938739 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86F026A43D2800938739 /* Misc.swift */; };
+		AAEE86F326A43D6500938739 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86F226A43D6500938739 /* FileManager.swift */; };
+		AAEE86F526A43D8A00938739 /* ShazamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86F426A43D8A00938739 /* ShazamManager.swift */; };
+		AAEE86F726A440F000938739 /* FileSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86F626A440F000938739 /* FileSelectionView.swift */; };
+		AAEE86F926A4415E00938739 /* GeneratedCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86F826A4415E00938739 /* GeneratedCatalogView.swift */; };
+		AAEE86FB26A4420400938739 /* GeneratingCatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE86FA26A4420400938739 /* GeneratingCatalogView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA29B04D2672BD2D005B310E /* ShazamKit Catalog Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShazamKit Catalog Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA29B0502672BD2D005B310E /* ShazamKit_Catalog_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamKit_Catalog_GeneratorApp.swift; sourceTree = "<group>"; };
+		AA29B0522672BD2D005B310E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA29B0542672BD2E005B310E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA29B0572672BD2E005B310E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA805AEB2674DC6700FFCD26 /* ShazamKit-Catalog-Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ShazamKit-Catalog-Generator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		AA9BEDEC26743FA200A4126C /* ShazamKit Catalog Generator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ShazamKit Catalog Generator.entitlements"; sourceTree = "<group>"; };
+		AAEE86F026A43D2800938739 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		AAEE86F226A43D6500938739 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+		AAEE86F426A43D8A00938739 /* ShazamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamManager.swift; sourceTree = "<group>"; };
+		AAEE86F626A440F000938739 /* FileSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSelectionView.swift; sourceTree = "<group>"; };
+		AAEE86F826A4415E00938739 /* GeneratedCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedCatalogView.swift; sourceTree = "<group>"; };
+		AAEE86FA26A4420400938739 /* GeneratingCatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratingCatalogView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA29B04A2672BD2D005B310E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA29B0442672BD2D005B310E = {
+			isa = PBXGroup;
+			children = (
+				AA29B04F2672BD2D005B310E /* ShazamKit Catalog Generator */,
+				AA29B04E2672BD2D005B310E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA29B04E2672BD2D005B310E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA29B04D2672BD2D005B310E /* ShazamKit Catalog Generator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA29B04F2672BD2D005B310E /* ShazamKit Catalog Generator */ = {
+			isa = PBXGroup;
+			children = (
+				AA29B0562672BD2E005B310E /* Preview Content */,
+				AA805AEB2674DC6700FFCD26 /* ShazamKit-Catalog-Generator-Info.plist */,
+				AA29B0542672BD2E005B310E /* Assets.xcassets */,
+				AA9BEDEC26743FA200A4126C /* ShazamKit Catalog Generator.entitlements */,
+				AA29B0502672BD2D005B310E /* ShazamKit_Catalog_GeneratorApp.swift */,
+				AAEE86FD26A4426E00938739 /* Managers */,
+				AAEE86FC26A4424800938739 /* ExtViews */,
+				AA29B0522672BD2D005B310E /* ContentView.swift */,
+				AAEE86F026A43D2800938739 /* Misc.swift */,
+			);
+			path = "ShazamKit Catalog Generator";
+			sourceTree = "<group>";
+		};
+		AA29B0562672BD2E005B310E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA29B0572672BD2E005B310E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAEE86FC26A4424800938739 /* ExtViews */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE86F626A440F000938739 /* FileSelectionView.swift */,
+				AAEE86FA26A4420400938739 /* GeneratingCatalogView.swift */,
+				AAEE86F826A4415E00938739 /* GeneratedCatalogView.swift */,
+			);
+			path = ExtViews;
+			sourceTree = "<group>";
+		};
+		AAEE86FD26A4426E00938739 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE86F226A43D6500938739 /* FileManager.swift */,
+				AAEE86F426A43D8A00938739 /* ShazamManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA29B04C2672BD2D005B310E /* ShazamKit Catalog Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA29B05B2672BD2E005B310E /* Build configuration list for PBXNativeTarget "ShazamKit Catalog Generator" */;
+			buildPhases = (
+				AA29B0492672BD2D005B310E /* Sources */,
+				AA29B04A2672BD2D005B310E /* Frameworks */,
+				AA29B04B2672BD2D005B310E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShazamKit Catalog Generator";
+			productName = "ShazamKit Catalog Generator";
+			productReference = AA29B04D2672BD2D005B310E /* ShazamKit Catalog Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA29B0452672BD2D005B310E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AA29B04C2672BD2D005B310E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = AA29B0482672BD2D005B310E /* Build configuration list for PBXProject "ShazamKit Catalog Generator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA29B0442672BD2D005B310E;
+			productRefGroup = AA29B04E2672BD2D005B310E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA29B04C2672BD2D005B310E /* ShazamKit Catalog Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA29B04B2672BD2D005B310E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA29B0582672BD2E005B310E /* Preview Assets.xcassets in Resources */,
+				AA29B0552672BD2E005B310E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA29B0492672BD2D005B310E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAEE86FB26A4420400938739 /* GeneratingCatalogView.swift in Sources */,
+				AAEE86F526A43D8A00938739 /* ShazamManager.swift in Sources */,
+				AAEE86F126A43D2800938739 /* Misc.swift in Sources */,
+				AAEE86F326A43D6500938739 /* FileManager.swift in Sources */,
+				AAEE86F926A4415E00938739 /* GeneratedCatalogView.swift in Sources */,
+				AA29B0532672BD2D005B310E /* ContentView.swift in Sources */,
+				AA29B0512672BD2D005B310E /* ShazamKit_Catalog_GeneratorApp.swift in Sources */,
+				AAEE86F726A440F000938739 /* FileSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA29B0592672BD2E005B310E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA29B05A2672BD2E005B310E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AA29B05C2672BD2E005B310E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShazamKit Catalog Generator/ShazamKit Catalog Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamKit Catalog Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = N9UX4L53GK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShazamKit-Catalog-Generator-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "ShazamKit Catalog Generator";
+				INFOPLIST_KEY_CFBundleName = "ShazamKit Catalog Generator";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.ShazamKit-Catalog-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA29B05D2672BD2E005B310E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ShazamKit Catalog Generator/ShazamKit Catalog Generator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShazamKit Catalog Generator/Preview Content\"";
+				DEVELOPMENT_TEAM = N9UX4L53GK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ShazamKit-Catalog-Generator-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "ShazamKit Catalog Generator";
+				INFOPLIST_KEY_CFBundleName = "ShazamKit Catalog Generator";
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.madebyyuma.ShazamKit-Catalog-Generator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA29B0482672BD2D005B310E /* Build configuration list for PBXProject "ShazamKit Catalog Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA29B0592672BD2E005B310E /* Debug */,
+				AA29B05A2672BD2E005B310E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA29B05B2672BD2E005B310E /* Build configuration list for PBXNativeTarget "ShazamKit Catalog Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA29B05C2672BD2E005B310E /* Debug */,
+				AA29B05D2672BD2E005B310E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA29B0452672BD2D005B310E /* Project object */;
+}
