@@ -12,14 +12,14 @@ The tool is extremely easy to use! You will need Xcode 13 Beta and MacOS 12 Mont
 
 ### Selecting files
 
-![File Selection Screen](/image/fileselection.png)
+![File Selection Screen](images/fileSelection.png)
 
 Click the *add files* button on the bottom-left corner to add some audio files. If you would like to remove any files, just select the desired files on the list and press the *delete (-)* button.
 Once you are ready to generate the catalog, simply click "Generate catalog".
 
 ### Testing and saving the catalog/signatures
 
-![Catalog Generated Screen](/image/catalogGenerated.png)
+![Catalog Generated Screen](images/catalogGenerated.png)
 
 Once the catalog along with its signatures have been generated, you can use the *Test Catalog* button to test the catalog (this requires microphone access). If it recognises an audio signature, the file's name will be displayed on the bottom of the window.
 
